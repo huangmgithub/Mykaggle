@@ -10,4 +10,7 @@
    * stores关联as(air_store_id)
    * tra&tes关联hol(visit_date)   
 +  weighted mean  
-+  时间序列   
++  时间序列      
+### 3.房价预测  
++  lgb xgb ctb lr训练
++  stacking模型融合
