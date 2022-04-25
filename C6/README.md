@@ -1,5 +1,12 @@
-### 1.幸福感预测
-+ ##### https://tianchi.aliyun.com/competition/entrance/231702/introduction
+### 1.模型融合
++   分类stacking
+    >  from mlxtend.classifier import StackingClassifier
+### 2.房价预测
++   增加特征重要性feature_importance   
+	> 5-kfold相加得到的特征重要性    
+	> 筛选出特征重要性为0的特征，删除特征
+
+
 ### 2.Recruit Restaurant Visitor Forecasting
 + ##### https://www.kaggle.com/code/headsortails/be-my-guest-recruit-restaurant-eda/report # EDA
 + ##### https://www.kaggle.com/code/zeemeen/weighted-mean-comparisons-lb-0-497-1st/script  # weighted mean   
@@ -13,4 +20,4 @@
 +  时间序列      
 ### 3.房价预测  
 +  lgb xgb ctb lr训练
-+  stacking模型融合(回归)
++  stacking模型融合
