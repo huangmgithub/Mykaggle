@@ -1,23 +1,16 @@
 ### 1.模型融合
-+   分类stacking
++   分类stacking ![图1](stacking.PNG)
     >  from mlxtend.classifier import StackingClassifier
 ### 2.房价预测
 +   增加特征重要性feature_importance   
+	> xgboost lightgbm catboost模型训练预测
 	> 5-kfold相加得到的特征重要性    
 	> 筛选出特征重要性为0的特征，删除特征
-
-
+	> 再次训练
 ### 2.Recruit Restaurant Visitor Forecasting
-+ ##### https://www.kaggle.com/code/headsortails/be-my-guest-recruit-restaurant-eda/report # EDA
-+ ##### https://www.kaggle.com/code/zeemeen/weighted-mean-comparisons-lb-0-497-1st/script  # weighted mean   
-+  baseline 特征工程
-   * hr内连接id关联到air_store_id
-   * 列出tes不重复的air_store_id->stores
-   * stores关联tra新特征(air_store_id, dow)
-   * stores关联as(air_store_id)
-   * tra&tes关联hol(visit_date)   
-+  weighted mean  
-+  时间序列      
-### 3.房价预测  
-+  lgb xgb ctb lr训练
-+  stacking模型融合
++	##### 时间序列模型 ![图2](流程图.PNG)
++   ##### 进一步特征工程
+    > ① 增加训练集，往往模型会更优更具有鲁棒性，对于时序问题，增加窗口可以叠加训练集       
+	> ② 增加强特，对时序特征增加不同窗口的中位数，最大值，最小值等
++   ##### https://www.kaggle.com/code/plantsgo/solution-public-0-471-private-0-505/script
+
