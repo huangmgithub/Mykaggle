@@ -7,10 +7,18 @@
 	> 5-kfold相加得到的特征重要性    
 	> 筛选出特征重要性为0的特征，删除特征
 	> 再次训练
-### 2.Recruit Restaurant Visitor Forecasting
+### 3.Recruit Restaurant Visitor Forecasting
 +	##### 时间序列模型 ![图2](流程图.PNG)
 +   ##### 进一步特征工程
     > ① 增加训练集，往往模型会更优更具有鲁棒性，对于时序问题，增加窗口可以叠加训练集       
 	> ② 增加强特，对时序特征增加不同窗口的中位数，最大值，最小值等
 +   ##### https://www.kaggle.com/code/plantsgo/solution-public-0-471-private-0-505/script
+
+### 4.LANL Earthquake Prediction    
++	特征工程  
+	> 时间序列      
+	> 使用傅里叶变换增加新特征   
+	> 窗口滑动部分数据进一步特征
++   ##### https://www.kaggle.com/competitions/LANL-Earthquake-Prediction/overview
++   ##### https://www.kaggle.com/code/lovedm/basic-feature-benchmark-20191124/notebook
 
