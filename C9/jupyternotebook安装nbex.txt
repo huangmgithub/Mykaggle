@@ -1,0 +1,4 @@
+¡ú pip install jupyter_contrib_nbextensions
+¡ú jupyter contrib nbextension install --user
+#ÆôÓÃ nbextensions
+¡ú jupyter nbextension enable codefolding/main
